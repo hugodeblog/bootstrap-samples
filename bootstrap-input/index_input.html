@@ -1,0 +1,126 @@
+<html lang="ja">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <title>Bootstrap Test</title>
+  </head>
+  <body>
+
+    <div class="container">
+      <h1>入力フォーム例いろいろ</h1>
+      <p>Bootstrapを使って入力フォームを作る</p>
+      <h2>ユーザー、パスワード、テキスト入力フォーム</h2>
+      <form>
+        <div class="form-group">
+          <label for="inputName">ユーザー</label>
+          <input type="text" class="form-control" id="inputName" placeholder="ユーザー名">
+        </div>
+        <div class="form-group">
+          <label for="inputPassword">Password</label>
+          <input type="password" class="form-control" id="inputPassword" placeholder="パスワード">
+        </div>
+        <div class="form-group">
+          <label for="inputText">テキスト入力</label>
+          <textarea id="inputText" class="form-control" placeholder="テキスト入力"></textarea>
+        </div>
+      </form>
+
+      <h2>チェックボックス</h2>
+      <p>チェックボックス例1</p>
+      <form>
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" id="checkRed" value="red" checked>
+          <label for="checkRed" class="form-check-label">赤色</label>
+        </div>
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" id="checkBlue" value="blue">
+          <label for="checkBlue" class="form-check-label">青色</label>
+        </div>
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" id="checkYellow" value="yellow">
+          <label for="checkYellow" class="form-check-label">黄色</label>
+        </div>
+      </form>
+      <p>チェックボックス例2</p>
+      <form>
+        <div class="form-check">
+          <label class="form-check-label">
+            <input type="checkbox" class="form-check-input" value="apple" checked>りんご
+          </label>
+        </div>
+        <div class="form-check">
+          <label class="form-check-label">
+            <input type="checkbox" class="form-check-input" value="orange">オレンジ
+          </label>
+        </div>
+        <div class="form-check">
+          <label class="form-check-label">
+            <input type="checkbox" class="form-check-input" value="banana">バナナ
+          </label>
+        </div>
+      </form>
+
+      <h2>ラジオボタン</h2>
+      <p>ラジオボタン例1</p>
+      <form>
+        <div class="form-check">
+          <input type="radio" class="form-check-input" name="optradio1" id="checkRed" value="red" checked>
+          <label for="checkRed" class="form-check-label">赤色</label>
+        </div>
+        <div class="form-check">
+          <input type="radio" class="form-check-input" name="optradio1" id="checkBlue" value="blue">
+          <label for="checkBlue" class="form-check-label">青色</label>
+        </div>
+        <div class="form-check">
+          <input type="radio" class="form-check-input" name="optradio1" id="checkYellow" value="yellow">
+          <label for="checkYellow" class="form-check-label">黄色</label>
+        </div>
+      </form>
+      <p>ラジオボタン例2</p>
+      <form>
+        <div class="form-check">
+          <label class="form-check-label">
+            <input type="radio" class="form-check-input" name="optradio2" value="apple" checked>りんご
+          </label>
+        </div>
+        <div class="form-check">
+          <label class="form-check-label">
+            <input type="radio" class="form-check-input" name="optradio2" value="orange">オレンジ
+          </label>
+        </div>
+        <div class="form-check">
+          <label class="form-check-label">
+            <input type="radio" class="form-check-input" name="optradio2" value="banana">バナナ
+          </label>
+        </div>
+      </form>
+
+      <h2>選択リスト</h2>
+      <div class="form-group">
+        <label for="selection">Select list:</label>
+        <select class="form-control" id="selection">
+          <option>りんご</option>
+          <option>みかん</option>
+          <option>ぶどう</option>
+        </select>
+      </div>
+
+      <h2>ファイル選択</h2>
+      <div class="form-group">
+        <label for="fileName">File:</label>
+        <input type="file" id="fileName" class="form-control-file">
+      </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  </body>
+</html>
