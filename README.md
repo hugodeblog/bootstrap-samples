@@ -17,3 +17,7 @@
 ## bootstrap-card
 
 * Bootstrapでカードデザイン
+
+## bootstrap-jumbotron
+
+* BootstrapでJumbotronで見出し作成
