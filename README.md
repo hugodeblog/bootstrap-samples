@@ -21,3 +21,7 @@
 ## bootstrap-jumbotron
 
 * BootstrapでJumbotronで見出し作成
+
+## bootstrap-carousel
+
+* BootstrapでCarouselでスライドショー
