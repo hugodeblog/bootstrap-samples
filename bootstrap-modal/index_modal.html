@@ -1,0 +1,224 @@
+<html lang="ja">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+  <title>Bootstrap Test</title>
+</head>
+<body>
+  <div class="container">
+    <h1>BootstrapのModal Dialog</h1>
+    <p>BootstrapのModal Dialogを使った例いろいろ</p>
+
+    <h2>基本のモーダルダイアログ</h2>
+    <div>
+      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#sample1">
+        Modal Dialog
+      </button>
+
+      <!-- モーダルダイアログ -->
+      <div class="modal" id="sample1">
+        <div class="modal-dialog">
+          <div class="modal-content">
+
+            <!-- ヘッダー -->
+            <div class="modal-header">
+              <h4 class="modal-title">ヘッダー情報</h4>
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+
+            <!-- ボディ -->
+            <div class="modal-body">
+              ここに本文を書きます
+            </div>
+
+            <!-- フッター -->
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <br>
+
+    <h2>フェードありのモーダルダイアログ</h2>
+    <div>
+      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#sample2">
+        Fade Modal Dialog
+      </button>
+
+      <!-- モーダルダイアログ -->
+      <div class="modal fade" id="sample2">
+        <div class="modal-dialog">
+          <div class="modal-content">
+
+            <!-- ヘッダー -->
+            <div class="modal-header">
+              <h4 class="modal-title">ヘッダー情報</h4>
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+
+            <!-- ボディ -->
+            <div class="modal-body">
+              ここに本文を書きます
+            </div>
+
+            <!-- フッター -->
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <br>
+
+    <h2>小さいサイズのモーダルダイアログ</h2>
+    <div>
+
+      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#sample3">
+        Small Modal Dialog
+      </button>
+
+      <!-- モーダルダイアログ -->
+      <div class="modal" id="sample3">
+        <div class="modal-dialog modal-sm">
+          <div class="modal-content">
+
+            <!-- ヘッダー -->
+            <div class="modal-header">
+              <h4 class="modal-title">ヘッダー情報</h4>
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+
+            <!-- ボディ -->
+            <div class="modal-body">
+              ここに本文を書きます
+            </div>
+
+            <!-- フッター -->
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <br>
+
+    <h2>上下中心のモーダルダイアログ</h2>
+    <div>
+
+      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#sample4">
+        Centered Modal Dialog
+      </button>
+
+      <!-- モーダルダイアログ -->
+      <div class="modal" id="sample4">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+
+            <!-- ヘッダー -->
+            <div class="modal-header">
+              <h4 class="modal-title">ヘッダー情報</h4>
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+
+            <!-- ボディ -->
+            <div class="modal-body">
+              ここに本文を書きます
+            </div>
+
+            <!-- フッター -->
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <br>
+
+    <h2>スクロールありのモーダルダイアログ</h2>
+    <div>
+
+      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#sample5">
+        Scroll Modal Dialog
+      </button>
+
+      <!-- モーダルダイアログ -->
+      <div class="modal" id="sample5">
+        <div class="modal-dialog modal-dialog-scrollable">
+          <div class="modal-content">
+
+            <!-- ヘッダー -->
+            <div class="modal-header">
+              <h4 class="modal-title">ヘッダー情報</h4>
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+
+            <!-- ボディ -->
+            <div class="modal-body">
+              長い本文でスクロールを表示させる例
+              <br><br>
+              Bodyに埋め込まれた文章が長い場合にスクロールが発生する。
+              <br>
+              ウィンドウ上下幅に収まる範囲だとスクロールが発生しないので、
+              そこそこの文章の長さでテスト。
+              <br><br>
+              [本ブログサイトについて]
+              <br><br>
+              本ブログサイトは静的サイトジェネレーターHugoで生成したサイトをNetlify上で運用しています。
+              <br><br>
+              [本サイトでの情報の取得・開示について]
+              <br><br>
+              本ブログは閲覧者様は匿名のままで、
+              サイト内の情報を自由に閲覧する事ができます。
+              <br>
+              なお、お問合せなど、場合によって閲覧者様の氏名や
+              メールアドレスなどの個人情報の開示を
+              お願いする事があった場合でも、本ブログでは、
+              個人情報は適切に管理し、以下に該当する場合を
+              除いて第三者に開示することはありません。
+              <br>
+              （本人のご了解がある場合 /
+              法令等への協力のため、開示が必要となる場合）
+
+            </div>
+
+            <!-- フッター -->
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
+</html>
